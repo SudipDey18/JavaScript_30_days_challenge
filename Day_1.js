@@ -33,3 +33,18 @@ console.log(typeof name);
 console .log(typeof cart_value);
 console.log(typeof my_info);
 
+// Activity 4: Reassigning Variables
+// Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
+// Ans
+
+let new_val = 57;
+console.log(new_val);
+new_val = 64;
+console.log(new_val);
+
+// Activity 5: Understanding const
+// Task 6: Try reassigning a variable declared with const and observe the error.
+// Ans 
+const my_age = 19;
+console.log(my_age);
+// my_age = 20; // Invali
