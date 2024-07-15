@@ -5,7 +5,7 @@
 // Ans
 let numb = -9;
 if(numb < 0){
-    console.log("This number is negative number"):;
+    console.log("This number is negative number");
 }else if(numb == 0){
     console.log("Thi number is 0");
 }else {
@@ -78,8 +78,8 @@ switch (Day) {
 
 // Activity 4: Conditional (Ternary) Operator
 // Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
-let number3 = 6;
-(number3%2===0) ? console.log(`${number3} is even number`) : console.log(`${number3} is odd number`);
+let number4 = 6;
+(number4%2===0) ? console.log(`${number4} is even number`) : console.log(`${number4} is odd number`);
 
 // Activity 5: Combining Conditions
 // Task 7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console
