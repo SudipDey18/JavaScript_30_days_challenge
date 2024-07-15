@@ -72,9 +72,30 @@ switch (Day) {
         console.log("invalid input");
         break ;
 }
+
 // Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
 // Ans
-
+let marks = 56;
+switch (true) {
+    case (marks>=85):
+        console.log(`Gread is 'A'`);
+        break ;
+    case (marks>=70):
+        console.log(`Gread is 'B'`);
+        break ;
+    case (marks>=65):
+        console.log(`Gread is 'C'`);
+        break ;
+    case (marks>=40):
+        console.log(`Gread is 'D'`);
+        break ;
+    case (marks<40):
+        console.log(`Gread is 'F'`);
+        break ;
+    default :
+        console.log("invalid input");
+        break ;
+}
 
 // Activity 4: Conditional (Ternary) Operator
 // Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
@@ -84,3 +105,9 @@ let number4 = 6;
 // Activity 5: Combining Conditions
 // Task 7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console
 // Ans
+let new_year = 2002;
+if((new_year % 4 == 0 && new_year % 100 != 0) || new_year%400 == 0){
+    console.log(`${new_year} is a leap year`);
+}else{
+    console.log(`${new_year} is not a leap year`);
+}
